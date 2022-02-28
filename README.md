@@ -1,11 +1,10 @@
 # VariableNeuralNets - attention-based parameter swapping for continual learning
 official submission for the 2022 AWS Deep Learning Challenge
 
-
 Brain Tumor   |  Nuclei |  Colonoscopy
 :-------------------------:|:-------------------------: |:-------------------------:
 ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%201.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%202.jpg?raw=true)
-
+This project explores the use of 
 
 ## Set-up Steps 
 
@@ -26,6 +25,9 @@ Create a working directory for python scripts on EC2 and execute:
 - ```AttentionNet.py``` to train the AttentionNet (CNN)
 - ```Mechanics.py``` with given input image to test entire model on given task for either brain tumor, colonoscopy, or cell nuclei segmentation
 
+## DL1 / Efficiency Notes
+The above models rely on Habana modules to train using AWS DL1 instances. Training across multiple devices results in ~10 epochs under 60 seconds on the AttentionNet (CNN) and under 5 minutes for the MainNet (UNet) using the corresponding datasets referenced below. Both models converge to > 0.85 accuracy.
+- For documentation on TensorFlow migration and training see [Habana Documentation](https://docs.habana.ai/en/latest/Tensorflow_User_Guide/Tensorflow_User_Guide.html# )
 
 ### Datasets
 **Nuclei Segmentation:**
