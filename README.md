@@ -38,8 +38,5 @@ https://www.med.upenn.edu/cbica/brats2020/data.html
 https://paperswithcode.com/dataset/kvasir
 
 ---
-## Documentation
+## Submission
 https://docs.habana.ai/en/latest/index.html
-
-Transfer learn a basic image classification model + run it:
-https://developer.habana.ai/tutorials/tensorflow/image-classification/
