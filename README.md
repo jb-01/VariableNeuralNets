@@ -1,7 +1,7 @@
 # VariableNeuralNets: attention-based parameter swapping for continual learning
 official submission for the 2022 AWS Deep Learning Challenge
 
-Brain Tumor   |  Nuclei |  Colonoscopy
+Brain Tumor   |  Cell Nuclei |  Colonoscopy
 :-------------------------:|:-------------------------: |:-------------------------:
 ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%201.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%202.jpg?raw=true)
 This project explores the use of 
