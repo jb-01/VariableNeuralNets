@@ -2,7 +2,7 @@ import MainNet
 import Attention
 
 # Load test image
-test = '/Users/joshuabelofsky/Desktop/AWS/Datasets/attention_data/brain/0073.png'
+test = '/path/to/testimage'
 
 
 # Map prediction to weights file
