@@ -1,5 +1,5 @@
 # VariableNeuralNets - attention-based parameter swapping for continual learning
-official submission for 2022 AWS Deep Learning Challenge
+official submission for the 2022 AWS Deep Learning Challenge
 
 
 Brain Tumor   |  Nuclei |  Colonoscopy
