@@ -64,7 +64,7 @@ model.compile(optimizer='adam',
               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               metrics=['accuracy'])
 
-# model.summary()
+model.summary()
 
 epochs = 10
 
@@ -77,6 +77,7 @@ def train():
     )
     model.save_weights('/media/classifier.h5')
 
+train()
 
 def eval(image):
     test_path = image
