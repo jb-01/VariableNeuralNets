@@ -12,8 +12,8 @@ from UNet import build_unet
 from metrics import dice_coef, iou
 
 # Habana specific libraries
-# import habana_frameworks.tensorflow as htf
-# htf.load_habana_module()
+import habana_frameworks.tensorflow as htf
+htf.load_habana_module()
 
 
 H = 256
