@@ -77,7 +77,7 @@ def train():
     )
     model.save_weights('/media/classifier.h5')
 
-train()
+train() # comment out if only running inference
 
 def eval(image):
     test_path = image
