@@ -4,7 +4,7 @@ official submission for 2022 AWS Deep Learning Challenge
 
 
 
-![[merged_image.jpg]]
+![merged_image.jpg](images/merged_image 1.jpg)
 ![[merged_image 1.jpg]]
 ![[merged_image 2.jpg]]
 ## Set-up Steps 
