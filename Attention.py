@@ -5,8 +5,8 @@ from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 
 # Habana specific libraries
-# from habana_frameworks.tensorflow import load_habana_module
-# load_habana_module()
+from habana_frameworks.tensorflow import load_habana_module
+load_habana_module()
 
 import pathlib
 
