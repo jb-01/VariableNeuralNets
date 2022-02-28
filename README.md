@@ -2,11 +2,11 @@
 official submission for 2022 AWS Deep Learning Challenge
 
 
+Brain Tumor   |  Nuclei |  Colonoscopy
+:-------------------------:|:-------------------------: |:-------------------------:
+![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%201.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%202.jpg?raw=true)
 
 
-![merged_image.jpg](images/merged_image 1.jpg)
-![[merged_image 1.jpg]]
-![[merged_image 2.jpg]]
 ## Set-up Steps 
 
 0. Set up DL1 Instance / Choose [Habana® Deep Learning Base AMI (Ubuntu 20.04)](https://aws.amazon.com/marketplace/pp/prodview-fw46rwuxrtfse?sr=0-1&ref_=beagle&applicationId=AWSMPContessa) image
