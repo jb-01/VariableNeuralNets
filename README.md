@@ -4,7 +4,8 @@ official submission for the 2022 AWS Deep Learning Challenge
 Brain Tumor   |  Cell Nuclei |  Colonoscopy
 :-------------------------:|:-------------------------: |:-------------------------:
 ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%201.jpg?raw=true)  |  ![](https://github.com/jb-01/VariableNeuralNets/blob/main/images/merged_image%202.jpg?raw=true)
-This project explores the use of 
+
+This project explores the use of attention-based parameter swapping for high accuracy performance across different tasks on the same neural network.
 
 ## Set-up Steps 
 
