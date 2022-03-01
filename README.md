@@ -42,5 +42,5 @@ https://paperswithcode.com/dataset/kvasir
 
 ---
 ## Submission
-https://docs.habana.ai/en/latest/index.html
+[Devpost](https://devpost.com/software/variable-neural-networks?ref_content=my-projects-tab&ref_feature=my_projects)
 ##### AWS ID: joshuabelofsky@gmail.com
