@@ -25,6 +25,7 @@ Create a working directory for python scripts on EC2 and execute:
 - ```trainUNet.py``` to train the MainNet (UNet) 
 - ```AttentionNet.py``` to train the AttentionNet (CNN)
 - ```Mechanics.py``` with given input image to test entire model on given task for either brain tumor, colonoscopy, or cell nuclei segmentation
+
 Use my weights trained on the DL1 instance [here](https://drive.google.com/file/d/1lHzezp52ieOEaXF4yEnHDEaRlw_5hfIp/view?usp=sharing).
 
 ## DL1 / Efficiency Notes
