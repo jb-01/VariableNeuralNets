@@ -25,6 +25,7 @@ Create a working directory for python scripts on EC2 and execute:
 - ```trainUNet.py``` to train the MainNet (UNet) 
 - ```AttentionNet.py``` to train the AttentionNet (CNN)
 - ```Mechanics.py``` with given input image to test entire model on given task for either brain tumor, colonoscopy, or cell nuclei segmentation
+Use my weights trained on the DL1 instance [here](https://drive.google.com/file/d/1lHzezp52ieOEaXF4yEnHDEaRlw_5hfIp/view?usp=sharing).
 
 ## DL1 / Efficiency Notes
 The above models rely on Habana modules to train using AWS DL1 instances. Training across multiple devices results in ~10 epochs under 60 seconds on the AttentionNet (CNN) and under 5 minutes for the MainNet (UNet) using the corresponding datasets referenced below. Both models converge to > 0.85 accuracy.
